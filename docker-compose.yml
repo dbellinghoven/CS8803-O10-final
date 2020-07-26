@@ -1,7 +1,0 @@
-version: "3.8"
-services:
-  cleanup:
-    image: golang:1.14.6-alpine3.12
-    command: "/go/src/app/cleanup.sh"
-    volumes:
-      - .:/go/src/app
